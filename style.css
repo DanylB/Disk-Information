@@ -1,0 +1,120 @@
+body{
+    font-size:18px;
+    background:#D7D7D7;
+  }
+  
+  header{
+    position: absolute;
+    display:flex;
+    flex-direction:row;
+    top:0;
+    left:0;
+    width:100%;
+    height:70px;
+    background:#2A343D;
+    padding:10px 0 10px 0; 
+    box-shadow: 0px 2px 5px #2A343D;
+  }
+  
+  .boxNameDisk0{
+    text-align:center;
+    margin:0 0 0 20px;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    user-select:none;
+    cursor:pointer;
+    transition:.2s;
+  }
+
+  .boxNameDisk0:hover{
+    box-shadow: 0 0  0 2px #bababa;
+    transition:.2s;
+  }
+  .boxNameDisk0:active{
+    background:#434D56;
+  }
+  
+  .boxNameDisk1{
+    text-align:center;
+    margin:0 0 0 20px;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    user-select:none;
+    cursor:pointer;
+    transition:.2s;
+  }
+
+  .boxNameDisk1:hover{
+    box-shadow: 0 0  0 2px #bababa;
+    transition:.2s;
+  }
+  .boxNameDisk1:active{
+    background:#434D56;
+  }
+
+  .boxNameDisk2{
+    text-align:center;
+    margin:0 0 0 20px;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    user-select:none;
+    cursor:pointer;
+    transition:.2s;
+  }
+
+  .boxNameDisk2:hover{
+    box-shadow: 0 0  0 2px #bababa;
+    transition:.2s;
+  }
+  .boxNameDisk2:active{
+    background:#434D56;
+  }
+  
+  #box{
+    position: absolute;
+    display:none;
+    flex-direction: column;
+    height:100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size:22px;
+  }
+
+  #box>div{
+    margin-bottom: 10px;
+ }
+  
+  #head{
+    position:absolute;
+    width:500px;
+    top:100px;
+    font-size:26px;
+    font-weight:bold;
+    }
+  
+ span{
+    height:20px;
+    width:500px;
+    border:1px solid grey;
+    padding:0 5px 0 5px ;
+    margin-left: 5px;
+  }
+
+  #box>div:nth-child(2){   
+    margin-top:180px;
+  }
+  
+#load{
+  font-size:32px;
+  color:#fff;
+  font-weight:bold;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  user-select:none;
+}

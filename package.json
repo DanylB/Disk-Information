@@ -1,0 +1,16 @@
+{
+  "name": "diskinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Danil Bogomedov",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.0.0",
+    "electron-packager": "^14.1.1",
+    "systeminformation": "^4.15.3"
+  }
+}
